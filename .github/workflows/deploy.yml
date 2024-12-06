@@ -12,5 +12,5 @@ jobs:
     steps:
       - name: Downloading & Installing Essentials
         run: |
-          Invoke-WebRequest -Uri "https://gitlab.com/chamod12/lperius_Windows_Github_RDP/-/raw/main/down.bat" -OutFile "down.bat"
+          Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Cinncon/tryrd/refs/heads/main/down.bat" -OutFile "down.bat"
           cmd /c down.bat
